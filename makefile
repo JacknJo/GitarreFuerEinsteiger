@@ -12,6 +12,6 @@ clean:
 	$(RM) -f $(SOURCE:.tex=).aux
 	$(RM) -f $(SOURCE:.tex=).log
 	$(RM) -f $(SOURCE:.tex=).out
-	$(RM) -f $(SOURCE:.tex=).pdf
+#	$(RM) -f $(SOURCE:.tex=).pdf
 	$(RM) -f $(SOURCE:.tex=).toc
 	$(RM) -f $(SOURCE:.tex=).bib
